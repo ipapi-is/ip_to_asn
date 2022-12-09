@@ -2,7 +2,7 @@
   "name": "ip_to_asn",
   "version": "1.0.0",
   "description": "Find rich ASN information for each IP address. The output includes IP suffixes, AS type, AS country, AS organisation and so on...",
-  "main": "index.js",
+  "main": "src/ip_to_asn.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
