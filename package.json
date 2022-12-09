@@ -1,6 +1,6 @@
 {
-  "name": "ip_to_asn",
-  "version": "1.0.0",
+  "name": "asn-from-ip",
+  "version": "1.0.1",
   "description": "Find rich ASN information for each IP address. The output includes IP suffixes, AS type, AS country, AS organisation and so on...",
   "main": "src/ip_to_asn.js",
   "scripts": {
@@ -13,5 +13,7 @@
     "API"
   ],
   "author": "ipapi.is",
-  "license": "ISC"
+  "url": "https://ipapi.is/",
+  "license": "ISC",
+  "homepage": "https://github.com/ipapi-is/ip_to_asn"
 }

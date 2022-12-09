@@ -19,10 +19,11 @@ git clone git@github.com:ipapi-is/ip_to_asn.git
 Lookup the IP address `144.168.164.55`:
 
 ```JavaScript
-const { ipToASN } = require('ip_to_asn');
+const { ipToASN } = require('asn-from-ip');
 
 (async () => {
-  console.log(await ipToASN('144.168.164.55'));
+  let result = await ipToASN('144.168.164.55');
+  console.log(result);
 })();
 ```
 
