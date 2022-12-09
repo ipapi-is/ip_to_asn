@@ -1,7 +1,7 @@
 {
   "name": "asn-from-ip",
-  "version": "1.0.1",
-  "description": "Find rich ASN information for each IP address. The output includes IP suffixes, AS type, AS country, AS organisation and so on...",
+  "version": "1.0.3",
+  "description": "This tiny module allows you to get ASN information for each IP address. The output includes IP suffixes, AS type, AS country, AS organisation and so on...",
   "main": "src/ip_to_asn.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,11 @@
   "keywords": [
     "ASN",
     "AS",
-    "IP",
-    "API"
+    "ip-to-asn",
+    "API",
+    "ASN Lookup",
+    "ASN Type",
+    "ASN Meta"
   ],
   "author": "ipapi.is",
   "url": "https://ipapi.is/",

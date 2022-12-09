@@ -5,7 +5,7 @@ This tiny package allows you to obtain ASN meta information for any IP address. 
 ## Installation
 
 ```bash
-npm install ip_to_asn
+npm install asn-from-ip
 ```
 
 If you want to clone the repository directly from GitHub instead:
