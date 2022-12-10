@@ -1,6 +1,6 @@
 {
   "name": "asn-from-ip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This tiny module allows you to get ASN information for each IP address. The output includes IP suffixes, AS type, AS country, AS organisation and so on...",
   "main": "src/ip_to_asn.js",
   "scripts": {
