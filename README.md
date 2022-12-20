@@ -1,5 +1,8 @@
 # IP to ASN
 
+[![Npm package version](https://badgen.net/npm/v/asn-from-ip)](https://www.npmjs.com/package/asn-from-ip)
+[![Npm package yearly downloads](https://badgen.net/npm/dy/asn-from-ip)](https://npmjs.com/package/asn-from-ip)
+
 This tiny package allows you to obtain ASN meta information for any IP address. Some IP addresses are of course not assigned to an ASN.
 
 ## Installation
