@@ -3,9 +3,9 @@ const https = require('https');
 function ipToASN(ip) {
   return new Promise(function (resolve) {
     const options = {
-      hostname: 'ipapi.is',
+      hostname: 'api.ipapi.is',
       port: 443,
-      path: '/json/?q=' + ip,
+      path: '/?q=' + ip,
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

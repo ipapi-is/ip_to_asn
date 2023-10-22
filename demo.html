@@ -10,10 +10,11 @@
 </head>
 
 <body>
+  <pre id="asn"></pre>
   <script type="text/javascript" src="dist/ipToASN.min.js"></script>
   <script type="text/javascript">
-    ipToASN('144.168.164.55').then((res) => {
-      alert(`ipToASN: ${JSON.stringify(res)}`);
+    ipToASN('95.91.211.148').then((res) => {
+      document.getElementById('asn').innerText = JSON.stringify(res, null, 2);
     });
   </script>
 </body>

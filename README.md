@@ -19,14 +19,13 @@ git clone git@github.com:ipapi-is/ip_to_asn.git
 
 ## Usage from Node.js
 
-Lookup the IP address `144.168.164.55`:
+Lookup the IP address `95.91.211.148`:
 
 ```JavaScript
 const { ipToASN } = require('asn-from-ip');
 
 (async () => {
-  let result = await ipToASN('144.168.164.55');
-  console.log(result);
+  console.log(await ipToASN('95.91.211.148'));
 })();
 ```
 
@@ -34,19 +33,19 @@ which outputs (at the time of writing):
 
 ```JavaScript
 {
-  asn: 55286,
-  route: '144.168.160.0/21',
-  descr: 'SERVER-MANIA, CA',
-  country: 'ca',
+  asn: 3209,
+  route: '95.88.0.0/14',
+  descr: 'VODANET International IP-Backbone of Vodafone, DE',
+  country: 'de',
   active: true,
-  org: 'B2 Net Solutions Inc.',
-  domain: 'www.servermania.com',
-  abuse: 'support@servermania.com',
-  type: 'hosting',
-  created: '2013-05-16',
-  updated: '2013-05-16',
-  rir: 'arin',
-  whois: 'https://ipapi.is/json/?whois=AS55286'
+  org: 'Vodafone GmbH',
+  domain: 'vodafone.com',
+  abuse: 'abuse.de@vodafone.com',
+  type: 'isp',
+  created: '2002-09-11',
+  updated: '2023-10-12',
+  rir: 'ripe',
+  whois: 'https://api.ipapi.is/?whois=AS3209'
 }
 ```
 
@@ -90,10 +89,11 @@ you can find the minified JavaScript here: `node_modules/asn-from-ip/dist/ipToAS
 </head>
 
 <body>
+  <pre id="asn"></pre>
   <script type="text/javascript" src="dist/ipToASN.min.js"></script>
   <script type="text/javascript">
-    ipToASN('144.168.164.55').then((res) => {
-      alert(`ipToASN: ${JSON.stringify(res)}`);
+    ipToASN('95.91.211.148').then((res) => {
+      document.getElementById('asn').innerText = JSON.stringify(res, null, 2);
     });
   </script>
 </body>
